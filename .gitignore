@@ -1,0 +1,69 @@
+### Docs
+/node_modules
+/.vuepress
+vue/node_modules
+vue/dist
+secret.yml
+
+
+### JetBrains
+.idea
+*.iml
+
+### Go template
+# Binaries for programs and plugins
+pkg
+*.exe
+-
+vendor
+bin
+build
+
+*.exe~
+*.dll
+*.so
+*.dylib
+tools/bin/*
+examples/build/*
+docs/_build
+docs/tutorial
+docs/modules
+dist
+tools-stamp
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Sources
+src
+
+# Mac OSX noises
+.DS_Store
+*.swp
+*.swo
+*.swl
+*.swm
+*.swn
+.vscode
+.idea
+*.pyc
+
+# Vagrant
+.vagrant/
+*.box
+*.log
+vagrant
+
+# Latex
+*.aux
+*.out
+*.synctex.gz
+
+# Build
+build
+/docs/modules
+.cache
+.temp
