@@ -27,7 +27,7 @@ tools/bin/*
 examples/build/*
 docs/_build
 docs/tutorial
-docs/modules
+#docs/modules
 dist
 tools-stamp
 
@@ -64,6 +64,6 @@ vagrant
 
 # Build
 build
-/docs/modules
+#/docs/modules
 .cache
 .temp
