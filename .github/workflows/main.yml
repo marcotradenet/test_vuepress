@@ -20,7 +20,7 @@ jobs:
         node-version: '16'
     - run: npm ci
     - run: npm run docs:build
-    - run: echo "marcotradenet.github.io/test_vuepress" > docs/.vuepress/dist/CNAME
+    - run: echo "marcotradenet.github.io" > docs/.vuepress/dist/CNAME
     - name: Init new repo in dist folder and commit generated files
       run: |
         cd docs/.vuepress/dist
