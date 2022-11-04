@@ -14,10 +14,6 @@ jobs:
       run: |
         echo test the checkout action,
         ls -a
-      if: ${{ github.head_ref_name != 'main' }}
-  docs:
-    runs-on: ubuntu-latest
-    steps:
     - name: Generate static VuePress files
       uses: actions/setup-node@v2
       with:
