@@ -4,7 +4,19 @@ on:
     # this is the branch where you develop your site
     # as discussed in the publishing sources section
     # this can change if you are using an user/organization repo
-    branches: [ main ]
+    branches: 
+      - master
+      - main
+      - main*
+      - 'docs/**'
+      - '!gh-pages'
+  pull_request:
+    branches: 
+      - master
+      - main
+      - main*
+      - 'docs/**'
+      - '!gh-pages'
 jobs:
   build:
     runs-on: ubuntu-latest
