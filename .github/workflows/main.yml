@@ -10,6 +10,8 @@ on:
       - main*
       - 'docs/**'
       - '!gh-pages'
+    tags:
+      - "v[0-9]+.[0-9]+.[0-9]+"
   pull_request:
     branches: 
       - master
@@ -17,6 +19,8 @@ on:
       - main*
       - 'docs/**'
       - '!gh-pages'
+    tags:
+      - "v[0-9]+.[0-9]+.[0-9]+"
 jobs:
   build:
     runs-on: ubuntu-latest
