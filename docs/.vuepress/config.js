@@ -1,6 +1,6 @@
 module.exports = {
     base: "/test_vuepress/",
-    title: "Commercio.network Documentation",
+    title: "Commercio.network Documentation try pub",
     description: "Documentation for the Commercio.network blockchain.",
     ga: "UA-51029217-2",
     head: [
